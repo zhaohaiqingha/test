@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3712ac90-fe5b-481a-b1b4-edd6bcacdace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/market-cloud-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-eureka/src/main/java/com/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-eureka/target/classes/com/eureka/EurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-gateway/src/main/java/com/gateway/ApplicationGateWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-gateway/src/main/java/com/gateway/configFilters/GlobalFilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-gateway/target/classes/com/gateway/ApplicationGateWay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-cloud-gateway/target/classes/com/gateway/configFilters/GlobalFilterConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/market-service-comon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/src/main/java/com/common/pojo/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/classes/com/common/pojo/Products.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/market-service-comon-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/market-service-comon-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-comon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/src/main/java/com/page/PageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/src/main/java/com/page/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/src/main/java/com/page/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/src/main/java/com/page/config/loadIRoduConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/src/main/java/com/page/fallbackfeigin/FallbackFeigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/src/main/java/com/page/service/Feigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/target/classes/com/page/PageApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/target/classes/com/page/PageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/target/classes/com/page/config/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/target/classes/com/page/config/loadIRoduConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/target/classes/com/page/fallbackfeigin/FallbackFeigin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-page/target/classes/com/page/service/Feigin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/src/main/java/com/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/src/main/java/com/product/controller/ProducrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/src/main/java/com/product/mapper/ProduceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/src/main/java/com/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/src/main/java/com/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/target/classes/com/product/ProductApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/target/classes/com/product/controller/ProducrController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/target/classes/com/product/mapper/ProduceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/target/classes/com/product/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product/target/classes/com/product/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/src/main/java/com/product/ProductApplication01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/src/main/java/com/product/controller/ProducrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/src/main/java/com/product/mapper/ProduceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/src/main/java/com/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/src/main/java/com/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/target/classes/com/product/ProductApplication01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/target/classes/com/product/controller/ProducrController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/target/classes/com/product/mapper/ProduceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/target/classes/com/product/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-service-product01/target/classes/com/product/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/market-service-page/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven\apache-maven-3.8.4\conf\repository" />
+        <option name="mavenHome" value="D:\apache-maven\apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\apache-maven\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22oA7O5k0cGrl90jt38b5CseNGU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\market-parent" />
+      <recent name="D:\market-parent\market-service-page\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductApplication01">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationGateWay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="market-cloud-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.ApplicationGateWay" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="market-cloud-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="market-service-page" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.page.PageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="market-service-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="market-service-product01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.product.ProductApplication01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.ApplicationGateWay" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3712ac90-fe5b-481a-b1b4-edd6bcacdace" name="Default Changelist" comment="" />
+      <created>1640493399745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640493399745</updated>
+      <workItem from="1640493400849" duration="11399000" />
+      <workItem from="1641185629358" duration="6728000" />
+      <workItem from="1641618395072" duration="8766000" />
+      <workItem from="1642059432657" duration="5426000" />
+      <workItem from="1642146270220" duration="3693000" />
+      <workItem from="1642219306593" duration="7442000" />
+      <workItem from="1642236840975" duration="153000" />
+      <workItem from="1642396355427" duration="5749000" />
+      <workItem from="1642682676672" duration="1822000" />
+      <workItem from="1642684773124" duration="738000" />
+      <workItem from="1642685546706" duration="5119000" />
+      <workItem from="1642926168707" duration="4933000" />
+      <workItem from="1644389117048" duration="2982000" />
+      <workItem from="1644565342323" duration="163000" />
+      <workItem from="1644565528190" duration="1798000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="665" y="93" key="#Project_Structure" timestamp="1642685713586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1642685713586" />
+    <state x="562" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640496159814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1640496159814" />
+    <state x="882" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640496594050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="882" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1640496594050" />
+    <state x="1108" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1642926711619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1108" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1642926711619" />
+    <state x="920" y="275" key="FileChooserDialogImpl" timestamp="1644566102787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="920" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1644566102787" />
+    <state width="1289" height="290" key="GridCell.Tab.0.bottom" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.0.center" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.0.left" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.0.right" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.1.bottom" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.1.center" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.1.left" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.1.right" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.2.bottom" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.2.center" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.2.left" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state width="1289" height="290" key="GridCell.Tab.2.right" timestamp="1644392033801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1289" height="290" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1644392033801" />
+    <state x="945" y="220" key="RollbackChangesDialog" timestamp="1644566377965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="945" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644566377965" />
+    <state x="780" y="135" key="SettingsEditor" timestamp="1644566436355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="135" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644566436355" />
+    <state x="844" y="252" key="Vcs.Push.Dialog.v2" timestamp="1644566327656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="844" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1644566327656" />
+    <state x="1054" y="425" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1644568906700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1054" y="425" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644568906700" />
+    <state x="661" y="262" key="new project wizard" timestamp="1642685151108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="262" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1642685151108" />
+    <state x="971" y="275" key="refactoring.ChangeSignatureDialog" timestamp="1642929671489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="971" y="275" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1642929671489" />
+    <state x="860" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1642146683175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="860" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1642146683175" />
+  </component>
+</project>

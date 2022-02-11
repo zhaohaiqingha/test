@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="market-service-page" />
+        <module name="market-cloud-eureka" />
+        <module name="market-service-comon" />
+        <module name="market-service-product" />
+        <module name="market-service-product01" />
+        <module name="market-cloud-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="market-service-common" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="market-cloud-eureka" options="-parameters" />
+      <module name="market-cloud-gateway" options="-parameters" />
+      <module name="market-service-common" options="-parameters" />
+      <module name="market-service-comon" options="-parameters" />
+      <module name="market-service-page" options="-parameters" />
+      <module name="market-service-product" options="-parameters" />
+      <module name="market-service-product01" options="-parameters" />
+    </option>
+  </component>
+</project>

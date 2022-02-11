@@ -1,0 +1,100 @@
+server:
+  port: 9100
+
+spring:
+  application:
+    name: market-service-page
+  #数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/zhq?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT&allowPublicKeyRetrieval=true
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+
+#eureka:
+#  client:
+#    service-url: # eureka server的路径  将项目注册到eureka
+#      defaultZone: http://localhost:9200/eureka/
+#    instance:
+#      #使用ip注册，否则会使用主机名注册了（此处考虑到对老版本的兼容，新版本经过实验都是ip）
+#      prefer-ip-address: true
+#      #自定义实例显示格式，加上版本号，便于多版本管理，注意是ip-address，早期版本是ipAddress
+#      instance-id: ${spring.cloud.client.ip- address}:${spring.application.name}:${server.port}:@project.version@
+
+feign:
+  hystrix:
+    enabled: true
+  compression: # 开启请求和响应压缩
+    request:
+      enabled: true   # 默认不开启
+      mime-types: text/html,application/xml,application/json   # 设置压缩的数据类型，此处也是默认值
+      min-request-size: 2048   # 设置触发压缩的大小下限，此处也是默认值 达到2048K就进行压缩
+    response:
+      enabled: true  # 默认不开启
+
+  # Feign对负载均衡
+  #针对的被调用方微服务名称,不加就是全局生效
+market-service-product:
+  ribbon:
+    httpclient:
+      enabled: false
+    #请求连接超时时间
+    ConnectTimeout: 3000
+    #请求处理超时时间
+    ReadTimeout: 3000
+    #对所有操作都进行重试
+    OkToRetryOnAllOperations: true
+    ####根据如上配置，当访问到故障请求的时候，它会再尝试访问一次当前实例（次数由 MaxAutoRetries配置），
+    ####如果不行，就换一个实例进行访问，如果还不行，再换一次实例访问（更换次数由 MaxAutoRetriesNextServer配置），
+    ####如果依然不行，返回失败信息。
+    MaxAutoRetries: 0
+    #切换实例的重试次数#切换实例的重试次数
+    MaxAutoRetriesNextServer: 0
+    #负载策略 调整
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+
+
+# 配置熔断策略：
+hystrix:
+  threadpool:
+    default:
+      #并发执行的最大线程数，默认10
+      coreSize: 1
+      #BlockingQueue的最大队列数，默认值-1
+      maxQueueSize: 2
+      #即使maxQueueSize没有达到，达到 queueSizeRejectionThreshold该值后，请求也会被拒绝，默认值5
+      queueSizeRejectionThreshold: 1
+  command:
+    default:
+      circuitBreaker:
+        # 强制打开熔断器，如果该属性设置为true，强制断路器进入打开状态，将会拒绝所有的请求。 默认false关闭的
+        forceOpen: false
+        # 触发熔断错误比例阈值，默认值50%
+        errorThresholdPercentage: 50
+        # 熔断后休眠时长，默认值5秒
+        sleepWindowInMilliseconds: 3000
+        # 熔断触发最小请求次数，默认值是20
+        requestVolumeThreshold: 2
+      execution:
+        isolation:
+          thread:
+            # 熔断超时设置，默认为1秒
+            timeoutInMilliseconds: 2000
+
+# springboot中暴露健康检查等断点接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        # 暴露健康接口的细节
+    endpoint:
+      health:
+        show-details: always
